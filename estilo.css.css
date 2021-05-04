@@ -1,0 +1,16 @@
+@charset="utf-8";
+
+body{
+    background-color:khaki ;  
+}
+h1{
+	color: lightskyblue; font-size: 200%;
+    border: 2px solid plum;
+}
+p{
+	color: black; font-size: 130% ;
+    
+}
+ul a{
+  list-style-position: outside;
+}
