@@ -4,13 +4,53 @@ body{
     background-color:khaki ;  
 }
 h1{
-	color: lightskyblue; font-size: 200%;
-    border: 2px solid plum;
+	position: fixed;
+	top: 20%;
+	border-radius: 25px;
+	color: lightskyblue; font-size: 170%;
+    border: 3px solid plum;
+    text-shadow: 2px 2px black;
 }
+
 p{
 	color: black; font-size: 130% ;
     
 }
-ul a{
+.ul-a{
   list-style-position: outside;
 }
+
+li{ 
+	position: relative;
+	background-color: pink;
+	 list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+
+ li-a{ padding: 5px 10px; 
+    margin:0;
+    border: 3px solid #f00; 
+    background: #903;
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+
+.img{
+	 border-radius: 8px;
+	 position: fixed;
+	 }
+
+h3{
+  width: 100px;
+  height: 64px;
+  background-size: 100px 64px;
+  position: fixed;
+  left: 50px;
+  top:1%;
+
+  }
